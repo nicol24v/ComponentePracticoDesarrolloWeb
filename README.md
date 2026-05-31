@@ -51,9 +51,12 @@ Generar versión de producción:
 
 npm run build
 
-Despliegue
+## Despliegue
+
+Aplicación disponible en:
+
 https://componente-practico-desarrollo-8x7pj29vo-nicol24vs-projects.vercel.app/#registro
 
 ## Autor
-
+LINDA NICOLE VIZUETE 
 Proyecto desarrollado para la asignatura de Desarrollo Web.
