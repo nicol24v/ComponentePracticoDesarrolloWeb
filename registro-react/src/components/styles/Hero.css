@@ -1,0 +1,48 @@
+.hero {
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #87cefa,
+        #d8b4fe
+    );
+
+    padding: 2rem;
+    }
+
+    .hero-content {
+    max-width: 700px;
+    }
+
+    .hero h2 {
+    font-size: 3rem;
+    color: #333;
+    }
+
+    .hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    }
+
+    .hero-btn {
+    display: inline-block;
+
+    background: #6a5acd;
+    color: white;
+
+    padding: 12px 25px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+    }
+
+    .hero-btn:hover {
+    opacity: .9;
+    }

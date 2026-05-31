@@ -1,0 +1,111 @@
+:root {
+  --color-primario: #6a5acd;
+  --color-secundario: #87cefa;
+  --color-acento: #b19cd9;
+
+  --color-error: #e74c3c;
+  --color-exito: #2ecc71;
+
+  --espaciado: 1rem;
+  --radio: 10px;
+}
+
+.contenedor {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+  background: linear-gradient(
+    135deg,
+    #e0f0ff,
+    #f3e8ff
+  );
+}
+
+.card {
+  width: 100%;
+  max-width: 450px;
+
+  background: white;
+
+  padding: 2rem;
+
+  border-radius: var(--radio);
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  text-align: center;
+  color: var(--color-primario);
+}
+
+.campo {
+  margin-bottom: 1rem;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="number"],
+.campo input[type="password"] {
+  width: 100%;
+
+  padding: 10px;
+
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.opciones {
+  display: flex;
+  gap: 1rem;
+}
+
+.opcion {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+button {
+  width: 100%;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  color: white;
+
+  cursor: pointer;
+
+  background: linear-gradient(
+    90deg,
+    var(--color-primario),
+    var(--color-secundario)
+  );
+}
+
+.error {
+  display: block;
+  margin-top: 4px;
+  color: var(--color-error);
+  font-size: .85rem;
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 550px;
+  }
+}

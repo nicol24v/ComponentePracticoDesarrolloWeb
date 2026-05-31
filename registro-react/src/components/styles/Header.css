@@ -1,0 +1,40 @@
+.header {
+    background: #6a5acd;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+    }
+
+    .logo {
+    margin: 0;
+    }
+
+    .nav-links {
+    list-style: none;
+
+    display: flex;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    }
+
+    .nav-links a {
+    color: white;
+    text-decoration: none;
+    }
+
+    .nav-links a:hover {
+    text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    }
